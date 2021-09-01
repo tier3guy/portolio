@@ -1,0 +1,39 @@
+#education__wrapper h1{
+  text-align: center;
+  font-size: 4em;
+  font-family: var(--text-main);
+  font-weight: 400;
+}
+
+#education__wrapper{
+  padding: 10vw;
+  padding-top: 150px;
+  min-height: 100vh;
+}
+
+#academics{
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+  justify-content: space-around;
+}
+span{
+  font-size: 2em;
+}
+
+#academics h1{
+  width: 50%;
+  font-size: 3em;
+  font-family: var(--text-secondary);
+}
+
+.lists{
+  border-left: 4px solid var(--text) ;
+  width: 50%;
+}
+.lists ul{
+  flex-direction: column;
+}
+.lists ul li{
+  padding: 3em 0em 3em 5em;
+}

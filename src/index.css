@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&display=swap');
+:root{
+  --dark : #082032;
+  --secondary-dark : #2C394B;
+  --lighter : #334756;
+  --text : #FF4C29;
+
+  --text-main : Bebas Neue;
+  --text-secondary : Barlow Condensed;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lighter);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+}
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: var(--text-secondary);
+  color: var(--text);
+}
+
+body {
+  background: var(--dark);
+  min-height: 200vh;
+  overflow-x: hidden;
+}
+
+.btn__primary , .btn__secondary{
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: var(--text-main);
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  transition: all 0.8s;
+  
+}
+
+.btn__primary{
+  background-color: var(--text);
+  color: var(--dark);
+  border: 2px solid var(--text);
+}
+.btn__secondary{
+  background-color: transparent;
+  border: 2px solid var(--lighter);
+  color: var(--text);
+}
+
+.btn__primary:hover{
+  background-color: transparent;
+  border: 2px solid var(--lighter);
+  color: var(--text); 
+}
+.btn__secondary:hover{
+  background-color: var(--text);
+  color: var(--dark);
+  border: 2px solid var(--text);
+}

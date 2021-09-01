@@ -1,0 +1,51 @@
+.project_card{
+  width: 50%;
+  border: 4px solid var(--lighter);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -4px;
+  transition: all 0.4s;
+}
+#project__wrapper .project_card h1{
+  font-size: 2em;
+}
+#project__wrapper .project_card a{
+  font-size: 1.2em;
+  transition: all 0.3s;
+  font-weight: 550;
+  letter-spacing: 0.5px;
+}
+#project__wrapper .project_card a:hover{
+  color: var(--lighter);
+}
+.right{
+  float: right;
+  clear: both;
+  border-left: none;
+  text-align: right;
+}
+#project__wrapper .right h1{
+  text-align: right;
+}
+.right a{
+  margin-left: 10px;
+}
+.left{
+  float: left;
+  clear: both;
+  border-right: none;
+}
+#project__wrapper .left h1{
+  text-align: left;
+}
+.left a{
+  margin-right: 10px;
+}
+
+.right:hover{
+  border-right: 4px solid var(--text);
+}
+.left:hover{
+  border-left: 4px solid var(--text);
+}

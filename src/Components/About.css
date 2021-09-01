@@ -1,0 +1,18 @@
+#pic{
+  height: 60vh;
+  margin-right: 2em;
+  margin-top: 40px;
+}
+
+p{
+  font-size: 1.22em;
+}
+
+.about__text h1{
+  font-size: 5em;
+}
+
+#about__wrapper{
+  padding: 10vw;
+  display: flex;
+}

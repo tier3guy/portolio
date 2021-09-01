@@ -1,0 +1,44 @@
+.navbar__container{
+  border-top: 2px solid var(--text);
+  width: 100vw;
+  padding: 1em 10vw;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: var(--dark);
+  z-index: 99999;
+}
+
+#to_home{
+  text-decoration: none;
+}
+
+#logo h1 , #logo h2{
+  font-family: var(--text-main);
+  font-weight: 400;
+}
+
+ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.scrolling_effect{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.322) 0px 1px 2px 0px;
+}
+
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: 1em;
+  padding-top: 2em;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+ul li a:focus , #resume , ul li a:active{
+  background-color: var(--text);
+  color: var(--dark);
+}
