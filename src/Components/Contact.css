@@ -36,9 +36,14 @@
 @media only screen and (max-width: 950px) {
   #contact__wrapper{
     flex-direction: column;
+    
   }
   #contact__wrapper p{
     margin-bottom: 1.2em;
+    width: 80%;
+  }
+  #contact__wrapper h1{
+    width: 80%;
   }
   .fab{
     margin-bottom: 1.2em;

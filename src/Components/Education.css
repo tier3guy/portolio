@@ -53,5 +53,7 @@ span{
   }
   #academics h1{
     text-align: left;
+    margin-left: -50%;
+    width: fit-content;
   }
 }
