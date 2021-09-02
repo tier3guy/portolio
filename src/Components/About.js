@@ -10,9 +10,11 @@ function About() {
       </div>
       <div className = "about__text">
         <h1>About Me</h1>
-        <p>People find writing about themselves difficult. The question of how to distill your work down to a short, simple description is difficult regardless of how long you’ve been in your profession. The goal of creating an About Me page is to help you market yourself.</p>
+        <p>Hi folk! let me introduce myself I am Avinash and right now I am a student and pursuing my Bachelors in Information and Technology. I am self learner and loves to teach mathematics.</p>
 
-        <p>You want to make sure visitors and readers to your site understand your work—but you don’t want to go into too much detail and create a long essay about yourself in case they lose interest. You want to mention recognition you’ve received and exciting projects you’ve completed—but you don’t want to seem like you’re bragging.</p>
+        <p>I am also an open-source enthusiat and who loves to do contribution in open source projects. I recently joined <a>FOSSASIA</a> orgranisation. In my past I did contributions in <a>GSSoC</a> in a frontend project called Algo-Phantoms.</p>
+
+        <p>Currently I am looking forward in backend and learning NodeJS.</p>
 
         <a href = "https://drive.google.com/file/d/1_s2iWXLaH6Uk7YFsqVuD8ggbJ7ruHsBR/view" target="_blank"><button className = "btn__primary">Download Resume</button></a>
       </div>
