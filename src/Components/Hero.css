@@ -37,4 +37,7 @@
     padding-right: 5vh;
     flex-direction: column;
   }
+  .hero__text{
+    width: 100%;
+  }
 }
