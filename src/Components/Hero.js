@@ -9,7 +9,7 @@ function Hero() {
       <h1>Avinash Gupta</h1>
       <h3>I am a frontend web-developer and Software Engineering Student</h3>
       <div>
-        <a href = "https://drive.google.com/file/d/1_s2iWXLaH6Uk7YFsqVuD8ggbJ7ruHsBR/view" target="_blank"><button className = "btn__primary">Download Resume</button></a>
+        <a href = "https://drive.google.com/file/d/15zHgjn3fBrdxMPoC-sUN_bA3N1rgFy-9/view?usp=sharing" target="_blank"><button className = "btn__primary">Download Resume</button></a>
         <a href = "#project__wrapper"><button className = "btn__secondary">My Work</button></a>
       </div>
       </div>

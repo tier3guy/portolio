@@ -16,7 +16,7 @@ function About() {
 
         <p>Currently I am looking forward in backend and learning NodeJS.</p>
 
-        <a href = "https://drive.google.com/file/d/1_s2iWXLaH6Uk7YFsqVuD8ggbJ7ruHsBR/view" target="_blank"><button className = "btn__primary">Download Resume</button></a>
+        <a href = "https://drive.google.com/file/d/15zHgjn3fBrdxMPoC-sUN_bA3N1rgFy-9/view?usp=sharing" target="_blank"><button className = "btn__primary">Download Resume</button></a>
       </div>
     </div>
   )
