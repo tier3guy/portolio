@@ -38,7 +38,7 @@
     flex-direction: column;
   }
   .hero__text{
-    width: 100%;
+    width: 80%;
   }
   .hero__text h1{
     font-size: 5em;

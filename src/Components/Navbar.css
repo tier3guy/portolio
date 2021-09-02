@@ -64,7 +64,7 @@ ul li a:focus , #resume , ul li a:active{
     display: block;
     position: fixed;
     height: 100vh;
-    width: 290px;
+    width: 300px;
     background-color: var(--lighter);
     color: var(--dark);
     right: -260px;
