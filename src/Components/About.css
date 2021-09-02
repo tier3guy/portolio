@@ -25,4 +25,10 @@ p{
   #about__wrapper p{
     font-size: 1.8em;
   }
+  #pic{
+    
+    height: 40vh;
+    margin-right: 2em;
+    margin-top: 40px;
+  }
 }
