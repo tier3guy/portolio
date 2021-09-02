@@ -73,9 +73,7 @@ ul li a:focus , #resume , ul li a:active{
     align-items: center;
     justify-content: center;
   }
-  .navbar__mobile:hover{
-    right: 0px;
-  }   
+     
   ul{
     flex-direction: column;
   }
@@ -93,5 +91,8 @@ ul li a:focus , #resume , ul li a:active{
     padding: 0px;
     margin-bottom: 1em;
     font-size: 1.2em;
+  }
+  .fa-chevron-left:hover{
+    color: (--dark);
   }
 }

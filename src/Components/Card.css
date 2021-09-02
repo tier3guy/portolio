@@ -49,3 +49,9 @@
 .left:hover{
   border-left: 4px solid var(--text);
 }
+
+@media only screen and (max-width: 650px) {
+  .right , .left{
+    width: 100%;
+  }
+}

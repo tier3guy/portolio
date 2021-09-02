@@ -17,3 +17,12 @@ p{
   padding: 10vw;
   display: flex;
 }
+
+@media only screen and (max-width : 950px){
+  #about__wrapper{
+    flex-direction: column;
+  }
+  #about__wrapper p{
+    font-size: 1.8em;
+  }
+}

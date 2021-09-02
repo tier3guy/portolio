@@ -37,3 +37,18 @@ span{
 .lists ul li{
   padding: 3em 0em 3em 5em;
 }
+
+@media only screen and (max-width: 750px) {
+  #academics{
+    flex-direction: column;
+  }
+  .lists{
+    width: 100%;
+    margin-top: 2em;
+    border: 4px solid var(--text);
+    border-right: none;
+  }
+  .lists ul li{
+    padding: 1em 0 1em 1em;
+  }
+}

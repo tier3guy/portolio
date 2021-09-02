@@ -24,11 +24,24 @@
 .fab{
   color: var(--lighter);
   font-size: 2em;
-  padding-right: 2em;
-  padding-top: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
   transition: all 0.4s;
 }
 
 .fab:hover{
   color: var(--text);
+}
+
+@media only screen and (max-width: 950px) {
+  #contact__wrapper{
+    flex-direction: column;
+  }
+  #contact__wrapper p{
+    margin-bottom: 1.2em;
+  }
+  .fab{
+    margin-bottom: 1.2em;
+    margin-top: 0em;
+  }
 }
