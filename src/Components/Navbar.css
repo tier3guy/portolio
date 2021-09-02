@@ -42,3 +42,56 @@ ul li a:focus , #resume , ul li a:active{
   background-color: var(--text);
   color: var(--dark);
 }
+
+.navbar__mobile{
+  display: none;
+}
+
+#naving{
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0%;
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar__container{
+    display: none;
+  }
+  .navbar__mobile{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--lighter);
+    color: var(--dark);
+    right: -260px;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar__mobile:hover{
+    right: 0px;
+  }   
+  ul{
+    flex-direction: column;
+  }
+  #resume{
+    background-color: transparent;
+    color: var(--text);
+  }
+  ul li a:focus , ul li a:active{
+    background-color: transparent;
+  }
+  ul li a{
+    padding: 0%;
+  }
+  ul li{
+    padding: 0px;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+}

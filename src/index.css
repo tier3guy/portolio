@@ -74,3 +74,9 @@ body {
   color: var(--dark);
   border: 2px solid var(--text);
 }
+
+@media only screen and (max-width : 950px){
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import {useState} from 'react';
+import Logo from './Logo';
+import Menu from './Menu';
 
 function NavBar() {
   const [active,setActive] = useState(false);
@@ -9,29 +11,25 @@ function NavBar() {
     if(window.scrollY > 0) setActive(true);
     else setActive(false);
   }
-  window.addEventListener('scroll',scrolling);
-
+  window.addEventListener('scroll',scrolling);  
 
   return (
+    <>
     <div className = {(active) ? "navbar__container scrolling_effect" : "navbar__container"}>
-      <a href = "#" id="to_home">
-        <div id = "logo">
-        <h1>Programmer</h1>
-        <h2>Gupta 🚀</h2>
-        </div>
-      </a>
+      <Logo/>
 
       <div className = "menu__wrapper">
-        <ul>
-          <li><a href = "#about__wrapper">About Me</a></li>
-          <li><a href = "#education__wrapper">Education</a></li>
-          <li><a href = "#skills__wrapper">Skills</a></li>
-          <li><a href = "#contact__wrapper">Contact</a></li>
-          <li><a href = "#">Blogs</a></li>
-          <li><a href = "#" id = "resume">Resume</a></li>
-        </ul>
+      <Menu/>
       </div>
+      </div>
+      
+      <div className = "navbar__mobile" id = "naving_main">
+        <button id="naving"><i class="fas fa-chevron-left"></i></button>
+        <div>
+          <Menu/>
+        </div>
     </div>
+    </>
   )
 }
 

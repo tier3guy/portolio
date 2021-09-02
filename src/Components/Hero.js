@@ -14,7 +14,7 @@ function Hero() {
       </div>
       </div>
       <div id = "hero__img">
-      <img src = {hero} id="img"/>
+        <img src = {hero} id="img"/>
       </div>
     </div>
   )
