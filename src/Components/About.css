@@ -26,8 +26,8 @@ p{
     font-size: 1.8em;
   }
   #pic{
-    
-    height: 30vh;
+    display: none;
+    height: 35vh;
     margin-right: 2em;
     margin-top: 40px;
   }
