@@ -24,6 +24,7 @@ p{
   }
   #about__wrapper p{
     font-size: 1.8em;
+    width: 80%;
   }
   #pic{
     display: none;

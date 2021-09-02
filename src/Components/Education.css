@@ -51,4 +51,7 @@ span{
   .lists ul li{
     padding: 1em 0 1em 1em;
   }
+  #academics h1{
+    text-align: left;
+  }
 }
